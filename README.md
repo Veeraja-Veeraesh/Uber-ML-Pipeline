@@ -34,7 +34,7 @@ I began by defining the analytical requirements. This led to designing a dimensi
 *   Tools like Lucidchart Ire used for initial schema visualization.
 
 
-![Conceptual Data Model](images\data_model.jpeg)
+![Conceptual Data Model](https://github.com/Veeraja-Veeraesh/Uber-ML-Pipeline/blob/main/images/data_model.jpeg)
 *Image: A sketch or diagram of the initial fact and dimension table relationships.*
 
 This iterative process established primary and foreign key relationships crucial for data integrity and efficient querying.
@@ -61,7 +61,7 @@ I provisioned the necessary GCP services:
 *   **Firewall Rules:** A GCP firewall rule was established to allow inbound traffic on port `6789`, enabling access to the Mage UI from a browser.
 
 
-![GCP Firewall Rule](images\firewallgcp.png)
+![GCP Firewall Rule](https://github.com/Veeraja-Veeraesh/Uber-ML-Pipeline/blob/main/images/firewallgcp.png)
 *Image: Screenshot of the GCP firewall rule setup.*
 
 ### 4. Building the ETL Pipeline with Mage
@@ -75,7 +75,7 @@ Mage orchestrated the data flow from source to destination.
 *   Mage's UI facilitated pipeline design and execution monitoring.
 
 
-![Mage Pipeline UI](images\magegcp.png)
+![Mage Pipeline UI](https://github.com/Veeraja-Veeraesh/Uber-ML-Pipeline/blob/main/images/magegcp.png)
 *Image: Screenshot of the Mage UI depicting the pipeline's data flow.*
 
 ### 5. Data Warehousing in BigQuery
@@ -107,7 +107,7 @@ The final step involved creating an interactive dashboard.
 *   This provided a user-friendly interface for exploring data and uncovering business insights.
 
 
-![Looker Studio Dashboard](images\Uber_Dashboard.jpg)
+![Looker Studio Dashboard](https://github.com/Veeraja-Veeraesh/Uber-ML-Pipeline/blob/main/images/Uber_Dashboard.jpg)
 *Image: A screenshot of the final, insightful dashboard created in Looker Studio.*
 
 ---
